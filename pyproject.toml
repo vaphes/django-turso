@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-turso"
+version = "0.1.0"
+description = ""
+authors = ["Vithor Jaeger <vaphes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.7"
+libsql-experimental = "^0.0.37"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
